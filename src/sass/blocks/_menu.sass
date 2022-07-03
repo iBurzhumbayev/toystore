@@ -1,0 +1,46 @@
+.menu
+    background: #28272B
+    width: 250px
+    &__avatar
+        display: block
+        margin: 0 auto
+        margin-top: 50px
+    &__wrapper
+        display: flex
+        justify-content: space-between
+        flex-direction: row-reverse
+        align-items: center
+        width: 169px
+        margin: 20px 0 0 14.04%
+    &__circle
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 50px
+        height: 50px
+        border-radius: 100%
+        background: rgba(255, 255, 255, 0.15)
+    &__item
+        color: rgba(255, 255, 255, 0.4)
+        font-weight: 500
+        font-size: 18px
+        width: 83px
+        cursor: pointer
+        &:hover
+            color: #FFFFFF
+
+    &__item:hover + &__circle
+        background: linear-gradient(180deg, #FD7A32 0%, #FFA149 100%)
+
+    &__card
+        display: flex
+        flex-direction: column
+        align-items: center
+        width: 72.24%
+        height: 327px
+        background: #533A79
+        border-radius: 15px
+        margin: 45px 0 48px 14.04%
+    &__party
+        margin-top: 30px
+        
